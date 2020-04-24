@@ -1,0 +1,25 @@
+body {
+  background-image: url('earth.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+text-align: center;
+  border: 10px solid transparent;
+  padding: 15px;
+}
+* {
+  color: blue;
+  font-family: cursive;
+
+}
+button, select {
+    text-shadow: 1px 2px 4px #000000;
+}
+form {
+  width: 300px;
+border: 15px solid green;
+padding: 50px;
+margin: 20px;
+
+
+}

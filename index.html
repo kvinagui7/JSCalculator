@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1>Calculator</h1>
+
+    <p>Enjoy our Online Calculator! Allowing you to Add, Subtract, Divide, and Multiply.</p>
+    <form>
+
+
+      Number 1: <input type="text" id="Value 1">
+      Number 2: <input type="text" id="Value 2">
+      Operator:
+      <select id="Operator">
+        <option value="add">Add</option>
+        <option value="min">Minus</option>
+        <option value="div">Divide</option>
+        <option value="mul">Multiply</option>
+     </select>
+
+       <button type="button" onclick="calc()">Calculate</button>
+  
+    </form>
+    <div id="result"></div>
+
+  </body>
+  <script src="main.js"></script>
+</html>
